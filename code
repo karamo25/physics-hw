@@ -1,0 +1,12 @@
+
+mc2 = 9.38e8
+
+def velocity(ke):
+  beta = ((mc2)/(mc2+ke))**2
+  v = (1-beta)**(0.5)
+  
+  print v 
+  print str(round(v,7)) + 'c'
+  
+  
+velocity(1e12)
